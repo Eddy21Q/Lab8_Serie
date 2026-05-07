@@ -1,0 +1,16 @@
+{
+  "name": "lab8-serie",
+  "version": "1.0.0",
+  "description": "Consulta de series usando la API de TVMaze",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "npx serve src"
+  },
+  "keywords": [
+    "tvmaze",
+    "series",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC"
+}

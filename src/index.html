@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab8 Serie</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <h1>Lab8 Serie</h1>
+      <form class="search-form" id="search-form">
+        <input id="search-input" name="search" type="search" placeholder="Buscar serie" autocomplete="off" />
+        <button type="submit">Buscar</button>
+      </form>
+    </header>
+
+    <main>
+      <section class="hero" id="hero"></section>
+
+      <section class="catalog-section">
+        <div class="section-heading">
+          <h2 id="catalog-title">Series populares</h2>
+          <span id="catalog-count"></span>
+        </div>
+        <div class="catalog" id="catalog" aria-live="polite"></div>
+      </section>
+
+      <section class="details" id="details" aria-live="polite"></section>
+    </main>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
