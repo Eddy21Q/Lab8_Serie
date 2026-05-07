@@ -1,15 +1,18 @@
 # Lab8 Serie
 
-Proyecto base para consultar informacion de series usando la API de TVMaze.
+Proyecto para consultar una serie en TVMaze y visualizar sus episodios agrupados por temporada.
 
 ## Estructura
 
 ```text
 Lab8_Serie/
 ├── src/
+│   ├── services/
+│   │   └── tvmaze.js
 │   ├── index.html
 │   ├── index.css
 │   └── index.js
+├── index.html
 ├── README.md
 ├── .gitignore
 └── package.json
@@ -17,7 +20,7 @@ Lab8_Serie/
 
 ## Uso
 
-Abre `src/index.html` en el navegador y busca una serie por nombre.
+Abre `src/index.html` en el navegador. El proyecto carga una serie por ID desde TVMaze y muestra sus temporadas con episodios coloreados por rating.
 
 ## GitHub Pages
 
